@@ -73,6 +73,28 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: white;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 350px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 40px;
+    
+    background-color: rgba(241, 109, 109, .5);
+    bottom: 30px;
+    right: 160px;
+    position: absolute;
 }
 
 /* creates the level of zoom for animation */
