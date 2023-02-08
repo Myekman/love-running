@@ -128,7 +128,7 @@ h1, h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: red;
+    background-color: green;
 }
 
 .left-about-heading {
@@ -153,3 +153,10 @@ hr {
     margin: 5px 0;
 }
 
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
